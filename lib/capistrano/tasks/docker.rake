@@ -70,7 +70,7 @@ namespace :docker do
           '--env SECRET_KEY_BASE=b74f9df2edbb986f4da44425ccc6fcc4f23191515fa53dbdc4eebc549610',
           '--env RAILS_ENV=production',
           '--env VIRTUAL_HOST=app-domain.test',
-          '--health-cmd="curl localhost:3000/ping"',
+          '--health-cmd="curl -f localhost:3000/ping"',
           '--health-interval=10s',
           '--health-timeout=1s',
           'zero-downtime'
