@@ -1,3 +1,1 @@
-# README
-
-Zero downtime configuration with Docker
+## [Medium Article](https://alisepehri.medium.com/a-simple-solution-for-zero-downtime-on-deployments-with-docker-bdb71f3101d0)
